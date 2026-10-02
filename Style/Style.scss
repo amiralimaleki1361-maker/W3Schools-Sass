@@ -1,0 +1,53 @@
+@import 'vars';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $fonts;
+}
+
+
+header {
+    background-color: $bg-primary;
+    padding: 80px 20px;
+
+    h1 {
+        font-size: 64px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 24px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    a {
+        display: inline-block;
+        color: $text-white;
+        background-color: $bg-dark;
+        text-decoration: none;
+        padding: 15px 30px;
+        
+        &:hover {
+            background-color: $bg-secondary;
+            color: $text-dark;
+        }
+    }
+}
+
+.second-section {
+    background-color: $bg-secondary;
+}
+
+.quote {
+    background-color: $bg-dark;
+    padding: $p-5;
+    text-align: center;
+    color: $text-white;
+}
+
+footer {
+    padding: $p-5;
+}
